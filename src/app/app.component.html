@@ -1,8 +1,13 @@
+<!<!DOCTYPE html>
 <p-panel>
   <ng-template pTemplate="header">
-    <par-header></par-header>
+    <par-header style="width: 100%"></par-header>
   </ng-template>
-  <router-outlet></router-outlet>
+  <div class="wrapper">
+    <div class="second">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
   <ng-template pTemplate="footer">
     <par-footer></par-footer>
   </ng-template>
